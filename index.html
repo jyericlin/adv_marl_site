@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>On the Robustness of Cooperative Multi-Agent Reinforcement Learning</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Title</a></li>
+							<li><a href="#one">Abstract</a></li>
+							<li><a href="#two">Video Demo</a></li>
+							<li><a href="#three">Get in touch</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1>On the Robustness of Cooperative Multi-Agent Reinforcement Learning</h1>
+							<p>3rd Deep Learning and Security (DLS) 2020, co-located with the 41th IEEE Symposium on Security and Privacy</p>
+
+							<p>Authors: Jieyu Lin, Kristina Dzeparoska, Sai Qian Zhang, Alberto Leon-Garcia, Nicolas Papernot</p>
+							<ul class="actions">
+								<li><a href="#" class="button scrolly">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style2 spotlights">
+						<section>
+							<!-- <a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a> -->
+							<div class="content">
+								<div class="inner">
+									<h2>Abstract</h2>
+									<p>In cooperative multi-agent reinforcement learning (c-MARL), agents learn to cooperatively take actions as a team to maximize a total team reward. 
+										We analyze the robustness of c-MARL to adversaries capable of attacking one of the agents on a team. 
+										Through the ability to manipulate this agent's observations, the adversary seeks to decrease the total team reward. <br><br>
+
+										Attacking c-MARL is challenging for three reasons: first, it is difficult to estimate team rewards or how they are impacted by an agent mispredicting; 
+										second, models are non-differentiable; and third, the feature space is low-dimensional. Thus, we introduce a novel attack. 
+										The attacker first trains a policy network with reinforcement learning to find a wrong action it should encourage the victim agent to take. 
+										Then, the adversary uses targeted adversarial examples to force the victim to take this action. <br><br>
+										
+										Our results on the StartCraft II multi-agent benchmark demonstrate that c-MARL teams are highly vulnerable to perturbations applied to one of their agent's observations. 
+										By attacking a single agent, our attack method has highly negative impact on the overall team reward, reducing it from 20 to 9.4. 
+										This results in the team's winning rate to go down from 98.9% to 0%. 
+										</p>
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						
+					</section>
+
+				<!-- Two -->
+					<section id="two" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>Video Demo</h2>
+							<p>The following is a video demo of our work on the StarCraft II Multi-Agent Challenge benchmark (To be updated)</p>
+							<div class="content">
+								<section style="padding-left: 0px; padding-right: 0px">
+									<div class="video-container">
+										<iframe width="560" height="315" src="https://www.youtube.com/embed/3k5CPetPpZU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									</div>
+									
+								</section>
+								
+							</div>
+	
+						</div>
+					</section>
+
+				<!-- Three -->
+				<section id="three" class="wrapper style1 fade-up">
+					<div class="inner">
+						<h2>Get in touch</h2>
+						<p>The authors can be contacted via:</p>
+						<div class="split style1">
+							<section>
+								<ul class="contact">
+									<li>
+										<h3>Jieyu Lin</h3>
+										<span>jieyu.lin@mail.utoronto.ca</span>
+									</li>
+								</ul>
+							</section>
+						</div>
+					</div>
+				</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; All rights reserved.</li><li>Design: modified from <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
